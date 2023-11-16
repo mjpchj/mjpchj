@@ -1,6 +1,8 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem 'rspec'
+source "https://rubygems.org"
+
+# gem 'rspec'
 
 gem "jekyll"
 
@@ -9,3 +11,8 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
 end
+
+gem "kramdown-parser-gfm"
+
+gemspec
+gem "webrick", "~> 1.8"
